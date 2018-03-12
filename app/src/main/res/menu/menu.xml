@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/btnFavorite"
+        app:showAsAction="always"
+        android:icon="@drawable/favorite"
+        android:title="Favorite"></item>
+<item android:id="@+id/setWallpaper"
+    android:title="Set as Wallpaper"></item>
+    <item android:id="@+id/slideShow"
+        android:title="SlideShow"></item>
+    <item android:id="@+id/share"
+        android:title="Share"></item>
+    <item android:id="@+id/save"
+        android:title="Save"></item>
+    <item android:id="@+id/pinchZoom"
+        android:title="Pinch Zoom"></item>
+    <item android:id="@+id/nextWallpaper"
+        android:title="Next Wallpaper"></item>
+    <item android:id="@+id/previousWallpaper"
+        android:title="Previous Wallpaper"></item>
+</menu>
